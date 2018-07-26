@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title> John Ardolino </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>
+            function show_alert() {
+            alert("Message sent!");
+            }
+        </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	</head>
+
+<body id="contact_id">
+
+	<div class="header">
+
+  		<a href="images/me_chef_2.jpg" class="logo">John Ardolino</a>
+	  	<div class="header-right">
+		    <a href="index.html">Home</a>
+		    <a class="active" href="contact.html">Contact</a>
+		    <a href="about.html">About</a>
+	  	</div>
+
+	</div>
+
+    
+
+	<div class="container-fluid">
+        <div class="row-fluid" >
+           
+              
+	         <div class="col-md-offset-4 col-md-4" id="box">
+	          <h3 id="contact_me">Contact Me</h3>
+               
+                
+                   
+
+	                <form class="form-horizontal" action="mailto:johnardolino@gmail.com" method="post" enctype="text/plain" id="contact_form">
+	                    <fieldset>
+	                        <!-- Form Name -->
+
+
+	                        <!-- Text input-->
+
+	                        <div class="form-group">
+
+	                            <div class="col-md-12">
+	                                <div class="input-group">
+	                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+	                                    <input name="first_name" placeholder="Name" class="form-control" type="text">
+	                                </div>
+	                            </div>
+	                        </div>
+
+
+                          
+                                <!-- Text input-->
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                <!-- Text input-->
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                        <input name="phone" placeholder="(005)501-120101" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                                <!-- Text input-->
+
+                            <div class="form-group">
+
+                                <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="comment" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-warning pull-right" onclick="show_alert();"> Send <span class="glyphicon glyphicon-send"></span></button>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                	</form>
+               </div>	
+        </div> 
+	</div>
+
+    <div class="footer">
+        <p id="tinyfoot">This website was made by John Ardolino 2018</p>
+    </div>
+
+
+
+
+	
+</body>
+</html>	
